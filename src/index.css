@@ -5,7 +5,24 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+/* navbar */
 ul > li{
   font-size: 14px;
   font-weight: 400;
+}
+/* Banner button */
+.button {
+  background-color: white;
+  color: #445f84;
+  padding:10px 17px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #445f84;
+  color: white;
 }
